@@ -19,11 +19,8 @@ To run this project locally, follow these steps:
 3. Open the `index.html` file in your preferred web browser.
 
 ## Usage
-![Screenshot 1](path/to/screenshot1.png)
-*Caption for Screenshot 1*
-
-![Screenshot 2](path/to/screenshot2.png)
-*Caption for Screenshot 2*
+![Screenshot](https://github.com/Mirwais-Jafari/King-Burger/raw/main/img/king-burger.png)
+*King Burger Web Page*
 
 ## Technologies Used
 
