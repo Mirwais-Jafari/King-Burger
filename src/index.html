@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>King Burger</title>
+    <link rel="stylesheet" href="../styles/output.css" />
+  </head>
+  <body>
+    <header
+      class="flex items-center justify-between px-6 py-2 border-b-2 text-gray-900 bg-white"
+    >
+      <h1 class="font-bold text-xl">
+        <span class="text-slate-700 text-4xl">K</span>ing
+        <span class="text-slate-700 text-4xl">B</span>urger
+      </h1>
+
+      <nav class="hidden md:flex md:gap-4 text-white items-center">
+        <div class="relative">
+          <div id="toggleMenu" class="leading-relaxed cursor-pointer flex items-center">
+            <span class="text-black bg-white">Menu</span>
+            <span class="arrowDownIcon">&#9660;</span>
+          </div>
+          <div id="menuItems" class="hidden absolute left-0 mt-1rem bg-white text-gray-900 rounded-md">
+            <a href="#">option1</a>
+            <a href="#">option2</a>
+          </div>
+        </div>
+        <a href="#" class="bg-white text-gray-900 rounded-md"> Promotions </a>
+        <a href="#" class="bg-white text-gray-900 rounded-md"> Kid's World </a>
+        <a href="#" class="bg-white text-gray-900 rounded-md"> Latest News </a>
+        <a href="#" class="bg-white text-gray-900 rounded-md">
+          Heroes Around Us
+        </a>
+      </nav>
+      <div class="hidden md:flex md:gap-2">
+        <div class="relative">
+          <div
+            id="toggleLocation"
+            class="leading-relaxed cursor-pointer flex items-center"
+          >
+            <span class="text-black bg-white py-1">Afghanistan</span>
+            <span class="arrowDownIcon">&#9660;</span>
+          </div>
+          <div
+            id="countries"
+            class="hidden absolute left-0 mt-1rem bg-white text-gray-900 rounded-md"
+          >
+            <a href="#">Italy</a>
+            <a href="#">Germany</a>
+            <a href="#">Indonesia</a>
+            <a href="#">America</a>
+          </div>
+        </div>
+        <a
+          href="#"
+          class="py-2 px-4 bg-red-500 text-white rounded-md hover:bg-red-700 hover:text-white items-center justify-center flex text-nowrap"
+        >
+          View Locations
+        </a>
+      </div>
+    </header>
+    <!-- End of header part -->
+    <div class="px-6 py-8 bg-white text-gray-900">
+      <div class="flex items-center justify-center">
+        <h1 class="text-neutral-800 text-3xl font-semibold leading-10 ml-4">
+          Menu
+        </h1>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div class="flex flex-col items-center">
+          <div
+            class="hover:bg-red-500 p-4 hover:border hover:rounded-md transition duration-300"
+          >
+          <img src="../img/image 2.png" alt="logo" width="100" height="100" />
+          <h1 class="text-center text-black text-xl mt-2">Item 1</h1>
+          </div>
+        </div>
+        <div class="flex flex-col items-center">
+          <div
+            class="hover:bg-red-500 p-4 hover:border hover:rounded-md transition duration-300"
+          >
+            <img src="../img/image 2.png" alt="photo2" width="100" height="100" />
+            <h1 class="text-center text-black text-xl mt-2">Item 2</h1>
+          </div>
+        </div>
+        <div class="flex flex-col items-center">
+          <div
+            class="hover:bg-red-500 p-4 hover:border hover:rounded-md transition duration-300"
+          >
+            <img src="../img/image3.png" alt="photo3" width="100" height="100" />
+            <h1 class="text-center text-black text-xl mt-2">Item 3</h1>
+          </div>
+        </div>
+        <div class="flex flex-col items-center">
+          <div
+            class="hover:bg-red-500 p-4 hover:border hover:rounded-md transition duration-300"
+          >
+            <img src="../img/image4.png" alt="photo4" width="100" height="100" />
+            <h1 class="text-center text-black text-xl mt-2">Item 4</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-6 py-2 bg-red-500"
+    >
+      <!-- First section -->
+      <div class="flex flex-col item-center pt-3">
+        <p class="text-white text-3xl font-semibold leading-10">
+          Order
+          <span class="text-yellow-400 text-3xl font-semibold leading-10 ml-1">
+            King's
+          </span>
+        </p>
+        <p class="text-white text-3xl font-semibold leading-10">
+          Easier with the App
+        </p>
+        <p
+          class="text-slate-300 text-base font-normal font-'Open Sans' leading-relaxed"
+        >
+          Now you can order King's anytime, anywhere, more efficiently and
+          quickly through the app. Download now
+        </p>
+        <div class="flex items-center gap-2 my-2">
+          <img src="../img/appstore.png" alt="" width="100" height="100" />
+          <img src="../img/android.png" alt="" width="100" height="100" />
+        </div>
+      </div>
+
+      <!-- Second section -->
+      <div class="flex item-center">
+        <div class="flex items-center justify-between">
+          <img src="../img/menu1.png" alt="menu1.png" width="150" height="150" />
+          <img src="../img/home 1.png" alt="menu1.png" width="150" height="150" />
+        </div>
+      </div>
+
+      <!-- Third section -->
+      <div class="block p-4">
+        <p class="text-white text-2xl font-semibold leading-7">
+          Why Order Through the App?
+        </p>
+        <div class="py-6">
+          <div class="flex items-center justify-start">
+            <div class="bg-yellow-500 w-5 h-5 rounded-md inline-flex"></div>
+            <p
+              class="text-white text-lg font-semibold font-'Poppins' leading-7 ml-1"
+            >
+              Exciting Promotions
+            </p>
+          </div>
+          <p
+            class="text-white text-base font-normal font-'Open Sans' leading-relaxed ml-5"
+          >
+            Get exciting promotions every day on the app
+          </p>
+        </div>
+        <div class="py-6">
+          <div class="flex items-center justify-start">
+            <div class="bg-yellow-500 w-5 h-5 rounded-md inline-flex"></div>
+            <p
+              class="text-white text-lg font-semibold font-'Poppins' leading-7 ml-1"
+            >
+              Order Anywhere, Anytime
+            </p>
+          </div>
+          <p
+            class="text-white text-base font-normal font-'Open Sans' leading-relaxed ml-5"
+          >
+            We can deliver to your location 24/7, wherever you are
+          </p>
+        </div>
+        <div class="py-6">
+          <div class="flex items-center justify-start">
+            <div class="bg-yellow-500 w-5 h-5 rounded-md inline-flex"></div>
+            <p
+              class="text-white text-lg font-semibold font-'Poppins' leading-7 ml-1"
+            >
+              Fast & Free Delivery
+            </p>
+          </div>
+          <p
+            class="text-white text-base font-normal font-'Open Sans' leading-relaxed ml-5"
+          >
+            Order through the app, no need to wait long, and your delivery is
+            free
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Fourth section -->
+    <div class="flex justify-start items-start gap-6 p-6 h-90 bg-white">
+      <div class="justify-start items-start gap-3">
+        <p class="text-neutral-800 text-3xl font-semibold leading-10">
+          Let's
+          <span class="text-red-700 text-3xl font-semibold leading-10 mr-1">
+            Learn & Work Together
+          </span>
+          Bersama
+        </p>
+        <p class="text-neutral-800 text-base font-normal leading-relaxed">
+          At King's, we are more than just a business.
+        </p>
+        <p class="text-neutral-800 text-base font-normal leading-relaxed">
+          We are a community where you can develop life skills and pursue and
+          achieve your dreams.
+        </p>
+        <a
+          href="#"
+          class="px-5 py-3 bg-red-700 bg-opacity-90 rounded shadow justify-start items-start gap-2.5 inline-flex my-1"
+        >
+          <p class="text-white text-lg font-semibold leading-7">
+            View Job Openings
+          </p>
+        </a>
+      </div>
+      <img
+        src="../img/insta1.png"
+        alt="menu1.png"
+        width="100"
+        height="100"
+        class="rounded-lg"
+      />
+      <img
+        src="../img/insta.png"
+        alt="menu1.png"
+        width="100"
+        height="100"
+        class="rounded-lg"
+      />
+    </div>
+
+    <!-- Instagram component -->
+    <div class="flex flex-col items-center justify-center bg-white py-6">
+      <div class="inline-flex items-center mb-10">
+        <h2 class="text-center">King Burger's Afghanistan Instagram</h2>
+        <div
+          class="items-center justify-between px-3 py-2 bg-red-500 bg-opacity-90 rounded-lg inline-flex ml-2 mt-1"
+        >
+          <h2>Follow @king burger</h2>
+          <svg
+            width="32"
+            height="33"
+            viewBox="0 0 32 33"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M16 10.4582C12.4532 10.4582 9.59065 13.3207 9.59065 16.8675C9.59065 20.4144 12.4532 23.2769 16 23.2769C19.5469 23.2769 22.4094 20.4144 22.4094 16.8675C22.4094 13.3207 19.5469 10.4582 16 10.4582ZM16 21.0332C13.7063 21.0332 11.8344 19.1613 11.8344 16.8675C11.8344 14.5738 13.7063 12.7019 16 12.7019C18.2938 12.7019 20.1657 14.5738 20.1657 16.8675C20.1657 19.1613 18.2938 21.0332 16 21.0332ZM22.6719 8.70191C21.8438 8.70191 21.175 9.37066 21.175 10.1988C21.175 11.0269 21.8438 11.6957 22.6719 11.6957C23.5 11.6957 24.1688 11.03 24.1688 10.1988C24.169 10.0021 24.1305 9.80738 24.0553 9.62566C23.9802 9.44394 23.8699 9.27883 23.7309 9.13978C23.5919 9.00073 23.4267 8.89048 23.245 8.81535C23.0633 8.74021 22.8685 8.70166 22.6719 8.70191ZM28.4938 16.8675C28.4938 15.1425 28.5094 13.4332 28.4125 11.7113C28.3157 9.71128 27.8594 7.93628 26.3969 6.47378C24.9313 5.00816 23.1594 4.55503 21.1594 4.45816C19.4344 4.36128 17.725 4.37691 16.0031 4.37691C14.2781 4.37691 12.5688 4.36128 10.8469 4.45816C8.8469 4.55503 7.0719 5.01128 5.6094 6.47378C4.14378 7.93941 3.69065 9.71128 3.59378 11.7113C3.4969 13.4363 3.51253 15.1457 3.51253 16.8675C3.51253 18.5894 3.4969 20.3019 3.59378 22.0238C3.69065 24.0238 4.1469 25.7988 5.6094 27.2613C7.07503 28.7269 8.8469 29.18 10.8469 29.2769C12.5719 29.3738 14.2813 29.3582 16.0031 29.3582C17.7282 29.3582 19.4375 29.3738 21.1594 29.2769C23.1594 29.18 24.9344 28.7238 26.3969 27.2613C27.8625 25.7957 28.3157 24.0238 28.4125 22.0238C28.5125 20.3019 28.4938 18.5925 28.4938 16.8675ZM25.7438 24.2363C25.5157 24.805 25.2407 25.23 24.8 25.6675C24.3594 26.1082 23.9375 26.3832 23.3688 26.6113C21.725 27.2644 17.8219 27.1175 16 27.1175C14.1782 27.1175 10.2719 27.2644 8.62815 26.6144C8.0594 26.3863 7.6344 26.1113 7.1969 25.6707C6.75628 25.23 6.48128 24.8082 6.25315 24.2394C5.60315 22.5925 5.75003 18.6894 5.75003 16.8675C5.75003 15.0457 5.60315 11.1394 6.25315 9.49566C6.48128 8.92691 6.75628 8.50191 7.1969 8.06441C7.63753 7.62691 8.0594 7.34878 8.62815 7.12066C10.2719 6.47066 14.1782 6.61753 16 6.61753C17.8219 6.61753 21.7282 6.47066 23.3719 7.12066C23.9407 7.34878 24.3657 7.62378 24.8032 8.06441C25.2438 8.50503 25.5188 8.92691 25.7469 9.49566C26.3969 11.1394 26.25 15.0457 26.25 16.8675C26.25 18.6894 26.3969 22.5925 25.7438 24.2363Z"
+              fill="#C13584"
+            />
+          </svg>
+        </div>
+      </div>
+
+      <div class="flex items-center justify-center">
+        <div class="m-0 bg-red-500">
+          <img
+            src="../img/insta.png"
+            alt="Instagram Image 1"
+            width="200"
+            height="200"
+          />
+        </div>
+        <div class="m-2">
+          <img
+            src="../img/insta.png"
+            alt="Instagram Image 2"
+            width="200"
+            height="200"
+          />
+        </div>
+        <div class="m-2">
+          <img
+            src="../img/insta.png"
+            alt="Instagram Image 3"
+            width="200"
+            height="200"
+          />
+        </div>
+        <div class="m-2">
+          <img
+            src="../img/insta.png"
+            alt="Instagram Image 4"
+            width="200"
+            height="200"
+          />
+        </div>
+        <div class="m-2">
+          <img
+            src="../img/insta.png"
+            alt="Instagram Image 5"
+            width="200"
+            height="200"
+          />
+        </div>
+      </div>
+    </div>
+    <!--  end of instagram part -->
+
+    <!-- footer part -->
+
+    <footer class="py-8 bg-white">
+      <div class="flex items-center justify-center bg-red-600 py-6">
+        <div class="text-center text-white text-2xl font-semibold leading-7">
+          <p class="py-3">
+            Get Promotions & Exciting Information from King Burger
+          </p>
+          <p class="text-center text-slate-200 text-xl">
+            Subscribe to be the first to receive King Burger promotions &
+            exciting information through your email
+          </p>
+          <div class="py-6">
+            <form action="POST" class="text-xl">
+              <input
+                class="text-gray-900 p-2 focus:outline-none rounded-md"
+                type="email"
+                placeholder="Enter Your Email"
+              />
+              <input type="submit" class="p-2 bg-red-700 rounded-md" />
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 px-6 py-2 bg-white"
+      >
+        <div>
+          <h1 class="font-bold text-xl">
+            <span class="text-slate-700 text-4xl">K</span>ing
+            <span class="text-slate-700 text-4xl">B</span>urger
+          </h1>
+        </div>
+
+        <div class="text-gray-900">
+          <div class="font-semibold mb-4">Navigation</div>
+          <ul>
+            <li>
+              <a href="#" class="text-gray-900 my-1"> Contact Us </a>
+            </li>
+            <li>
+              <a href="#" class="text-gray-900 my-1"> About Us </a>
+            </li>
+            <li>
+              <a href="#" class="text-gray-900 my-1"> Newsroom </a>
+            </li>
+            <li>
+              <a href="#" class="text-gray-900 my-1"> Career </a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <ul>
+            <li>
+              <a href="#" class="text-gray-900 my-1"> Contact Us </a>
+            </li>
+            <li>
+              <a href="#" class="text-gray-900 my-1"> About Us </a>
+            </li>
+            <li>
+              <a href="#" class="text-gray-900 my-1"> CSR </a>
+            </li>
+            <li>
+              <a href="#" class="text-gray-900 my-1"> McDonald's App </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="flex-col justify-center items-center gap-5 inline-flex">
+          <div class="gap-6 inline-flex">
+            <a href="#">
+              <svg
+                width="32"
+                height="33"
+                viewBox="0 0 32 33"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M17.8627 28.8634V17.9354H21.5493L22.0973 13.6567H17.8627V10.9314C17.8627 9.69675 18.2067 8.85141 19.9787 8.85141H22.224V5.03675C21.1315 4.91967 20.0334 4.86314 18.9347 4.86741C15.676 4.86741 13.4387 6.85675 13.4387 10.5087V13.6487H9.776V17.9274H13.4467V28.8634H17.8627Z"
+                  fill="#1877F2"
+                />
+              </svg>
+            </a>
+            <a href="#">
+              <svg
+                width="32"
+                height="33"
+                viewBox="0 0 32 33"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M31.524 7.45012C30.4107 7.94345 29.2147 8.27679 27.9573 8.42745C29.2547 7.65118 30.2253 6.42941 30.688 4.99012C29.4691 5.71411 28.1351 6.22371 26.744 6.49679C25.8085 5.49794 24.5694 4.83589 23.2191 4.61342C21.8688 4.39095 20.4828 4.62051 19.2763 5.26646C18.0698 5.9124 17.1104 6.9386 16.5469 8.18572C15.9834 9.43285 15.8474 10.8311 16.16 12.1635C13.6902 12.0394 11.2742 11.3975 9.06856 10.2793C6.86296 9.16113 4.91712 7.59167 3.35733 5.67279C2.824 6.59279 2.51733 7.65945 2.51733 8.79545C2.51673 9.81811 2.76857 10.8251 3.2505 11.7271C3.73243 12.6291 4.42954 13.3982 5.28 13.9661C4.2937 13.9347 3.32916 13.6682 2.46666 13.1888V13.2688C2.46656 14.7031 2.96271 16.0933 3.87091 17.2034C4.77911 18.3136 6.04342 19.0754 7.44933 19.3595C6.53437 19.6071 5.57511 19.6435 4.644 19.4661C5.04066 20.7003 5.81332 21.7795 6.85382 22.5527C7.89431 23.3259 9.15055 23.7544 10.4467 23.7781C8.24644 25.5053 5.52918 26.4422 2.732 26.4381C2.2365 26.4383 1.74143 26.4093 1.24933 26.3515C4.08863 28.177 7.39378 29.1459 10.7693 29.1421C22.196 29.1421 28.4427 19.6781 28.4427 11.4701C28.4427 11.2035 28.436 10.9341 28.424 10.6675C29.6391 9.78875 30.6879 8.70065 31.5213 7.45412L31.524 7.45012Z"
+                  fill="#1DA1F2"
+                />
+              </svg>
+            </a>
+            <a href="#">
+              <svg
+                width="32"
+                height="33"
+                viewBox="0 0 32 33"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16 10.4582C12.4532 10.4582 9.59065 13.3207 9.59065 16.8675C9.59065 20.4144 12.4532 23.2769 16 23.2769C19.5469 23.2769 22.4094 20.4144 22.4094 16.8675C22.4094 13.3207 19.5469 10.4582 16 10.4582ZM16 21.0332C13.7063 21.0332 11.8344 19.1613 11.8344 16.8675C11.8344 14.5738 13.7063 12.7019 16 12.7019C18.2938 12.7019 20.1657 14.5738 20.1657 16.8675C20.1657 19.1613 18.2938 21.0332 16 21.0332ZM22.6719 8.70191C21.8438 8.70191 21.175 9.37066 21.175 10.1988C21.175 11.0269 21.8438 11.6957 22.6719 11.6957C23.5 11.6957 24.1688 11.03 24.1688 10.1988C24.169 10.0021 24.1305 9.80738 24.0553 9.62566C23.9802 9.44394 23.8699 9.27883 23.7309 9.13978C23.5919 9.00073 23.4267 8.89048 23.245 8.81535C23.0633 8.74021 22.8685 8.70166 22.6719 8.70191ZM28.4938 16.8675C28.4938 15.1425 28.5094 13.4332 28.4125 11.7113C28.3157 9.71128 27.8594 7.93628 26.3969 6.47378C24.9313 5.00816 23.1594 4.55503 21.1594 4.45816C19.4344 4.36128 17.725 4.37691 16.0031 4.37691C14.2781 4.37691 12.5688 4.36128 10.8469 4.45816C8.8469 4.55503 7.0719 5.01128 5.6094 6.47378C4.14378 7.93941 3.69065 9.71128 3.59378 11.7113C3.4969 13.4363 3.51253 15.1457 3.51253 16.8675C3.51253 18.5894 3.4969 20.3019 3.59378 22.0238C3.69065 24.0238 4.1469 25.7988 5.6094 27.2613C7.07503 28.7269 8.8469 29.18 10.8469 29.2769C12.5719 29.3738 14.2813 29.3582 16.0031 29.3582C17.7282 29.3582 19.4375 29.3738 21.1594 29.2769C23.1594 29.18 24.9344 28.7238 26.3969 27.2613C27.8625 25.7957 28.3157 24.0238 28.4125 22.0238C28.5125 20.3019 28.4938 18.5925 28.4938 16.8675ZM25.7438 24.2363C25.5157 24.805 25.2407 25.23 24.8 25.6675C24.3594 26.1082 23.9375 26.3832 23.3688 26.6113C21.725 27.2644 17.8219 27.1175 16 27.1175C14.1782 27.1175 10.2719 27.2644 8.62815 26.6144C8.0594 26.3863 7.6344 26.1113 7.1969 25.6707C6.75628 25.23 6.48128 24.8082 6.25315 24.2394C5.60315 22.5925 5.75003 18.6894 5.75003 16.8675C5.75003 15.0457 5.60315 11.1394 6.25315 9.49566C6.48128 8.92691 6.75628 8.50191 7.1969 8.06441C7.63753 7.62691 8.0594 7.34878 8.62815 7.12066C10.2719 6.47066 14.1782 6.61753 16 6.61753C17.8219 6.61753 21.7282 6.47066 23.3719 7.12066C23.9407 7.34878 24.3657 7.62378 24.8032 8.06441C25.2438 8.50503 25.5188 8.92691 25.7469 9.49566C26.3969 11.1394 26.25 15.0457 26.25 16.8675C26.25 18.6894 26.3969 22.5925 25.7438 24.2363Z"
+                  fill="#C13584"
+                />
+              </svg>
+            </a>
+            <a href="#">
+              <svg
+                width="32"
+                height="33"
+                viewBox="0 0 32 33"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M31.3334 9.54337C31.1522 8.89701 30.7992 8.31183 30.312 7.85004C29.8111 7.37404 29.1971 7.03355 28.528 6.8607C26.024 6.2007 15.992 6.2007 15.992 6.2007C11.8098 6.15312 7.6286 6.3624 3.47203 6.82737C2.80295 7.01299 2.19011 7.36109 1.68803 7.8407C1.1947 8.31537 0.837363 8.9007 0.650696 9.54204C0.202287 11.9577 -0.0155812 14.4105 2.94539e-05 16.8674C-0.0159705 19.322 0.201363 21.774 0.650696 24.1927C0.833363 24.8314 1.18936 25.414 1.68403 25.8847C2.1787 26.3554 2.7947 26.6954 3.47203 26.8754C6.00936 27.534 15.992 27.534 15.992 27.534C20.1796 27.5817 24.3661 27.3724 28.528 26.9074C29.1971 26.7345 29.8111 26.394 30.312 25.918C30.799 25.4563 31.1516 24.8711 31.332 24.2247C31.7921 21.81 32.0159 19.3562 32 16.898C32.0346 14.4295 31.8112 11.9641 31.3334 9.54204V9.54337ZM12.8027 21.4327V12.3034L21.1494 16.8687L12.8027 21.4327Z"
+                  fill="#FF0000"
+                />
+              </svg>
+            </a>
+          </div>
+          <div class="justify-center items-center gap-5 inline-flex">
+            <a href="#">
+              <img
+                src="../img/appstore.png"
+                alt="logo"
+                width="100"
+                height="100"
+              />
+            </a>
+            <a href="#">
+              <img src="../img/android.png" alt="logo" width="100" height="100" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="items-center justify-center flex mb-6">
+        <h2 class="text-slate-500">© 2024 King Burger Afghanistan</h2>
+      </div>
+    </footer>
+
+    <script src="../src/script.js"></script>
+  </body>
+</html>
